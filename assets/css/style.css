@@ -8,7 +8,7 @@
 
 #up .row {
     display: flex;
-    background-color: rgb(92, 140, 199);
+    background-color: #047eb3;
 }
 
 #up .logo {
@@ -101,7 +101,7 @@
 
 #down .row {
     display: flex;
-    background-color: rgb(92, 140, 199);
+    background-color:  #047eb3;
 }
 
 
@@ -295,26 +295,384 @@
 
 
 
-#highlights .text{
+#highlights .text {
     display: flex;
 }
 
 
-#highlights .text a{
+#highlights .text a {
     text-decoration: none;
     margin-top: -150px;
     width: 210px;
     margin-left: 50px;
-    color: rgb(37, 83, 143)  
+    color: rgb(37, 83, 143)
 }
 
-#highlights .text .desc-3{
+#highlights .text .desc-3 {
     margin-left: 150px;
 }
 
-#highlights .text .desc-2{
+#highlights .text .desc-2 {
     margin-left: 80px;
 }
+
+
+#stream .row {
+    display: flex;
+}
+
+
+#stream .text .program {
+    margin-left: 600px;
+    font-size: 35px;
+    color: rgb(37, 83, 143);
+}
+
+
+#stream .text .stream-text {
+    margin-left: 45px;
+    font-size: 35px;
+    color: rgb(37, 83, 143);
+}
+
+#stream iframe {
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+#stream .med-news {
+    display: flex;
+    justify-content: space-between;
+}
+
+#stream .med-news ul {
+    display: flex;
+    margin-right: 430px;
+    margin-top: 20px;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+#stream .med-news ul li {
+    margin-left: 50px;
+    width: 120px;
+    border: solid;
+    border-radius: 5px;
+    height: 40px;
+    list-style: none;
+    padding: 8px;
+    background-color: #047eb3;
+    border-color: #047eb3;
+}
+
+#stream .med-news ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#stream .square {
+    width: 550px;
+    height: 250px;
+    border: solid white;
+    margin-left: 730px;
+    margin-top: -250px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 5px;
+}
+
+#advert{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+  
+#archives{
+    margin-top: 70px;
+}
+
+#archives span{
+    font-size: 35px;
+    color: rgb(37, 83, 143);
+    
+    margin-left: 50px;
+}
+
+#archives .first ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#archives .first ul li{
+    width: 150px;
+    border: solid;
+    border-radius: 5px;
+    height: 50px;
+    list-style: none;
+    padding: 10px;
+    background-color: #047eb3;
+    border-color: #047eb3;
+}
+
+#archives .first ul li a{
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+#archives .second ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#archives .second ul li{
+    width: 150px;
+    border: solid;
+    border-radius: 5px;
+    height: 50px;
+    list-style: none;
+    padding: 10px;
+    background-color: #047eb3;
+    border-color: #047eb3;
+}
+
+#archives .second ul li a{
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+}
+
+
+#archives .third ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#archives .third ul li{
+    width: 150px;
+    border: solid;
+    border-radius: 5px;
+    height: 50px;
+    list-style: none;
+    padding: 10px;
+    background-color: #047eb3;
+    border-color: #047eb3;
+}
+
+#archives .third ul li a{
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#archives .last ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#archives .last ul li{
+    width: 150px;
+    border: solid;
+    border-radius: 5px;
+    height: 50px;
+    list-style: none;
+    padding: 10px;
+    background-color: #047eb3;
+    border-color: #047eb3;
+}
+
+#archives .last ul li a{
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+}
+
+#footer .row{
+    display: flex;
+    background-color: #047eb3;
+    width: 100%;
+    margin-top: 70px;
+}
+
+#footer .foot{
+    display: flex;
+    margin-top: 50px;
+        
+}
+
+#footer .info{
+    margin-left: 200px;
+}
+
+#footer .info span{
+    font-size: 14px;
+    color: white;
+    
+}
+
+
+#footer .info input{
+    margin-top: 100px;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding-bottom: 20px;
+    font-family: Nunito;
+    color: #fff;
+    font-size: 15px;
+    background: 0 0;  
+    padding-right: 50px;
+}
+
+#footer .info ::placeholder{
+    color: white;
+}
+
+
+#footer .pages{
+    margin-left: 200px;
+}
+
+
+#footer .foot .information{
+    margin-left: 200px;
+}
+
+
+#footer .foot .contact{
+    margin-left: 200px;
+}
+
+#footer .foot h4{
+    color: white;
+    font-size: 20px;
+}
+
+#footer .foot .contact span{
+    font-size: 14px;
+    color: white;
+}
+
+#footer .foot  ul{
+    margin-top: 40px;
+}
+
+#footer .foot  li{
+    list-style: none;
+}
+
+#footer .foot  li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+#footer .foot  ul li:not(:first-of-type) {
+    margin-top: 1.5em;
+}
+
+#footer .foot  ul li:not(:last-of-type) {
+    margin-bottom: 1.5em;
+}
+
+.social-footer{
+    margin-top: 30px;
+       
+}
+
+.social-footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    margin-left: 1200px;
+}
+
+.social-footer ul li{
+    list-style: none;
+}
+
+
+
+.social-footer a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+.button .scroll-top{
+    position: fixed;
+    right: 85px;
+    bottom: 60px;
+    
+}
+
+
+.button .fa-solid {
+    width: 50px;
+    height: 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.social{
+    position: fixed;
+    top: 40px;
+    left: 1500px;    
+}
+
+.social ul{
+    height: 210px;
+    background-color: #047eb3;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.social ul li{
+    list-style: none;
+}
+
+.social ul li a{
+    text-decoration: none;
+    
+    color: white;
+    text-align: center;
+   
+}
+
+
+.social  ul li:not(:first-of-type) {
+    margin-top: 1.5em;
+}
+
+.social  ul li:not(:last-of-type) {
+    margin-bottom: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
